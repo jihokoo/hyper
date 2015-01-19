@@ -14,10 +14,12 @@ authors = ["Sean McArthur <sean.monstar@gmail.com>",
 cookie = "*"
 log = "*"
 mime = "*"
-mucell = "*"
 openssl = "*"
 rustc-serialize = "*"
 time = "*"
 unicase = "*"
 unsafe-any = "*"
 url = "*"
+
+[dependencies.mucell]
+git = "https://github.com/jihokoo/mucell.git"
